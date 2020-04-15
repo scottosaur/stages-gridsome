@@ -10,10 +10,10 @@ section-1-content: "Stages’ team of professional performers will bring your
 
   From entertainment at your home or event space to a fully-catered party at
   one of our partner venues, Stages has a variety of packages to meet your party
-  needs!
-
-
-  [Book Yours Today](/Parties)"
+  needs!"
+section-1-buttons:
+  - button-title: Book Yours Today
+    button-url: /parties
 section-2-title: Camp Experiences
 section-2-image: /uploads/home-card-2.jpg
 section-2-content: "What do you get when you combine the magic of Broadway with
