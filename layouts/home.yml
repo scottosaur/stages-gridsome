@@ -23,10 +23,11 @@ section-2-content: "What do you get when you combine the magic of Broadway with
   \r
 
   With two age ranges and flexible schedule options, Stages provides ideal
-  options to suit our campers and their families.
-
-
-  [Mini Camp (2.5 - 3 yr)](/camp/mini-camp)
-
-
-  [Little Stars Camp (3 - 5 yr)](/camp/little-stars-camp)"
+  options to suit our campers and their families."
+section-2-buttons:
+  - button-title: Mini Camp
+    button-subtitle: (2.5 - 3 yr)
+    button-url: /camp/mini-camp
+  - button-title: Little Stars Camp
+    button-subtitle: (3 - 5 yr)
+    button-url: /camp/little-stars-camp
