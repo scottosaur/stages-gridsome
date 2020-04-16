@@ -1,0 +1,33 @@
+title: Join Us for a Free Trial Class
+hero-img: /uploads/home-hero-1.jpg
+section-1-title: Parties & Events
+section-1-image: /uploads/home-card-1.jpg
+section-1-content: "Stages’ team of professional performers will bring your
+  child’s favorite characters to life in an interactive show that will have them
+  singing, dancing, and playing along!\r
+
+  \r
+
+  From entertainment at your home or event space to a fully-catered party at
+  one of our partner venues, Stages has a variety of packages to meet your party
+  needs!"
+section-1-buttons:
+  - button-title: Book Yours Today
+    button-url: /parties
+section-2-title: Camp Experiences
+section-2-image: /uploads/home-card-2.jpg
+section-2-content: "What do you get when you combine the magic of Broadway with
+  the fun and freedom of Summer? The ultimate Summer Camp experience for your
+  child!\r
+
+  \r
+
+  With two age ranges and flexible schedule options, Stages provides ideal
+  options to suit our campers and their families."
+section-2-buttons:
+  - button-title: Mini Camp
+    button-subtitle: (2.5 - 3 yr)
+    button-url: /camp/mini-camp
+  - button-title: Little Stars Camp
+    button-subtitle: (3 - 5 yr)
+    button-url: /camp/little-stars-camp
