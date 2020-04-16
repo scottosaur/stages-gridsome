@@ -23,7 +23,7 @@ collections:
     files:
       - label: "Home Page"
         name: "home"
-        file: "layouts/home.yml"
+        file: "pages/home.yml"
         fields:
           - {
               label: Hero Title,
