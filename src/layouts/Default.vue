@@ -1,8 +1,8 @@
 <template>
   <div class="layout">
-    <Header/>
+    <Header />
     <slot />
-    <Footer/>
+    <Footer />
   </div>
 </template>
 
@@ -15,15 +15,16 @@ query {
 </static-query>
 
 <script>
-import Header from '~/components/Header.vue';
-import Footer from '~/components/Footer.vue';
+import Header from "~/components/Header.vue";
+import Footer from "~/components/Footer.vue";
+// import PageWrapper from '~/components/PageWrapper.vue';
 
 export default {
-  components: { 
-      Header,
-      Footer
-    },
-}
+  components: {
+    Header,
+    Footer,
+  },
+};
 </script>
 
 <style>
@@ -39,5 +40,4 @@ body {
   max-width: 1200px;
   margin: 0 auto;
 }
-
 </style>

@@ -4,6 +4,8 @@ backend:
 
 media_folder: "static/uploads"
 public_folder: "/uploads"
+publish_mode: editorial_workflow
+logo_url: "../assets/img/stages-logo-svg.svg"
 
 collections:
   - name: "posts"
@@ -12,8 +14,126 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Excerpt", name: "excerpt", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "date"}
-      - {label: "Body", name: "body", widget: "markdown"}
-  
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Excerpt", name: "excerpt", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "date" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - label: "Pages"
+    name: "pages"
+    files:
+      - label: "Home Page"
+        name: "home"
+        file: "layouts/home.yml"
+        fields:
+          - {
+              label: Hero Title,
+              name: title,
+              widget: string,
+              hint: "The text in the 'hero' banner",
+            }
+          - { label: Hero Image, name: hero-img, widget: image }
+          - {
+              label: Section 1 Title,
+              name: section-1-title,
+              widget: string,
+              hint: "First section title",
+            }
+          - {
+              label: Section 1 Image,
+              name: section-1-image,
+              widget: image,
+              hint: "First section image",
+            }
+          - {
+              label: Section 1 Content,
+              name: section-1-content,
+              widget: markdown,
+              hint: "First section content",
+            }
+          - {
+              label: "Section 1 Buttons",
+              name: "section-1-buttons",
+              widget: list,
+              hint: "First section buttons",
+              required: false,
+              fields:
+                [
+                  {
+                    label: Button Title,
+                    name: button-title,
+                    widget: string,
+                    hint: "Button Title",
+                  },
+                  {
+                    label: Button Subtitle,
+                    name: button-subtitle,
+                    widget: string,
+                    required: false,
+                    hint: "Button Subtitle",
+                  },
+                  {
+                    label: Button URL,
+                    name: button-url,
+                    widget: string,
+                    hint: "Button URL",
+                  },
+                ],
+            }
+          - {
+              label: Section 2 Title,
+              name: section-2-title,
+              widget: string,
+              hint: "Second section title",
+            }
+          - {
+              label: Section 2 Image,
+              name: section-2-image,
+              widget: image,
+              hint: "Second section image",
+            }
+          - {
+              label: Section 2 Content,
+              name: section-2-content,
+              widget: markdown,
+              hint: "Second section content",
+            }
+          - {
+              label: "Section 2 Buttons",
+              name: "section-2-buttons",
+              widget: list,
+              hint: "Second section buttons",
+              required: false,
+              fields:
+                [
+                  {
+                    label: Button Title,
+                    name: button-title,
+                    widget: string,
+                    hint: "Button Title",
+                  },
+                  {
+                    label: Button Subtitle,
+                    name: button-subtitle,
+                    widget: string,
+                    required: false,
+                    hint: "Button Subtitle",
+                  },
+                  {
+                    label: Button URL,
+                    name: button-url,
+                    widget: string,
+                    hint: "Button URL",
+                  },
+                ],
+            }
+
+      - label: "About"
+        name: "about"
+        file: "pages/about.yml"
+        fields:
+          - {
+              label: Hero Title,
+              name: title,
+              widget: string,
+              hint: "The text in the 'hero' banner",
+            }
